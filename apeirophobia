@@ -1,11 +1,11 @@
 
 
-wait(1.2)
-game.StarterGui:SetCore("SendNotification", {
-Title = "Script Ejecutado"; -- the title (ofc)
-Text = "Ferry e pro"; -- what the text says (ofc)
-Icon = "rbxassetid://57254792"; -- the image if u want. 
-Duration = 5; -- how long the notification should in secounds
+local players = game:GetService("Players")
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Sexo!";
+    Text = "ruben es gay! to user is , " .. players.LocalPlayer.DisplayName;
+    Icon = "rbxthumb://type=AvatarHeadShot&id=" .. players.LocalPlayer.UserId .. "&w=180&h=180 true";
+    Duration = 5
 })
 
 local mt = getrawmetatable(game);
