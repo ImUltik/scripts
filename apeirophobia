@@ -3,7 +3,7 @@
 local players = game:GetService("Players")
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Sexo!";
-    Text = "ruben es gay! to user is , " .. players.LocalPlayer.DisplayName;
+    Text = "ruben es gay! tu user es , " .. players.LocalPlayer.DisplayName;
     Icon = "rbxthumb://type=AvatarHeadShot&id=" .. players.LocalPlayer.UserId .. "&w=180&h=180 true";
     Duration = 5
 })
